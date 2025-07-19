@@ -32,8 +32,9 @@ object Form5: TForm5
     Top = 21
     Width = 145
     Height = 21
+    ItemIndex = 0
     TabOrder = 0
-    Text = 'ComboBox1'
+    Text = 'Uniform'
     OnChange = ComboBox1Change
     Items.Strings = (
       'Uniform'
@@ -42,11 +43,11 @@ object Form5: TForm5
   end
   object Edit1: TEdit
     Left = 104
-    Top = 54
+    Top = 48
     Width = 121
     Height = 21
     TabOrder = 1
-    Text = '0'
+    Text = '1000'
     OnChange = Edit1Change
   end
   object DebugBox: TListBox

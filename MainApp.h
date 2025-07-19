@@ -23,6 +23,7 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
 	int samples;
+	double para1, para2;
 	__fastcall TForm5(TComponent* Owner);
 	void __fastcall updatePara(double p1, double p2);
 };

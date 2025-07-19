@@ -15,6 +15,8 @@ double para1, para2;
 __fastcall TForm5::TForm5(TComponent* Owner)
 	: TForm(Owner)
 {
+	DebugBox->Visible = false;
+	samples = 1000;
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm5::ComboBox1Change(TObject *Sender)
@@ -43,7 +45,9 @@ void __fastcall TForm5::updatePara(double p1, double p2){
 }
 void __fastcall TForm5::RunButtonClick(TObject *Sender)
 {
+ShowChartDialog->showDiagram(Sender);
  ShowChartDialog->Show();
 }
 //---------------------------------------------------------------------------
+
 
