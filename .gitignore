@@ -1,0 +1,28 @@
+# Binaries
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.lib
+*.so
+*.a
+*.o
+*.obj
+
+# IDE and compiler generated
+*.dcu
+*.dcp
+*.~*
+*.identcache
+*.local
+*.stat
+*.il*
+*.tds
+*.map
+*.pch
+*.hpp
+
+# Backup
+*.bak
+*.tmp
+*.log
