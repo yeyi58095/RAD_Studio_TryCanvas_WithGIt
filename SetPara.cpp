@@ -21,7 +21,7 @@ void __fastcall TSetParaDialog::FormShow(TObject *Sender)
 	CloseButton->Caption = "Close";
 	Edit1->Text = 0;
 	Edit2->Text = 1;
- 	switch(Form5->ComboBox1->ItemIndex){ // 因為會用到另外一個視窗 (Form5)的內容，因此要在上面 #include "Unit5.h"
+	switch(Form5->ComboBox1->ItemIndex){
 		case 0:
 			Label2->Visible = true;
 			Edit2->Visible = true;

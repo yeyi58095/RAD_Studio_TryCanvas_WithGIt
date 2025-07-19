@@ -57,4 +57,13 @@ object Form5: TForm5
     ItemHeight = 13
     TabOrder = 2
   end
+  object RunButton: TButton
+    Left = 56
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = 'Run'
+    TabOrder = 3
+    OnClick = RunButtonClick
+  end
 end

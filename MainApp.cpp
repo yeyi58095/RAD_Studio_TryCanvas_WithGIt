@@ -4,6 +4,7 @@
 #pragma hdrstop
 #include "SetPara.h"
 #include "MainApp.h"
+#include "ShowChart.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -40,3 +41,9 @@ void __fastcall TForm5::updatePara(double p1, double p2){
 	DebugBox->Items->Add(FloatToStr(para1));
 	DebugBox->Items->Add(FloatToStr(para2));
 }
+void __fastcall TForm5::RunButtonClick(TObject *Sender)
+{
+ ShowChartDialog->Show();
+}
+//---------------------------------------------------------------------------
+
