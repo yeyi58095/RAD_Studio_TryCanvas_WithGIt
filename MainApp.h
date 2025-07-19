@@ -15,11 +15,13 @@ __published:	// IDE-managed Components
 	TComboBox *ComboBox1;
 	TLabel *Label2;
 	TEdit *Edit1;
+	TListBox *DebugBox;
 	void __fastcall ComboBox1Change(TObject *Sender);
 	void __fastcall Edit1Change(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm5(TComponent* Owner);
+	void __fastcall updatePara(double p1, double p2);
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm5 *Form5;

@@ -131,7 +131,7 @@
             <BuildOrder>2</BuildOrder>
         </CppCompile>
         <CppCompile Include="SetPara.cpp">
-            <Form>Form1</Form>
+            <Form>SetParaDialog</Form>
             <FormType>dfm</FormType>
             <DependentOn>SetPara.h</DependentOn>
             <BuildOrder>3</BuildOrder>

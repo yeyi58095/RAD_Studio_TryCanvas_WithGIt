@@ -5,7 +5,7 @@
 #include <tchar.h>
 //---------------------------------------------------------------------------
 USEFORM("MainApp.cpp", Form5);
-USEFORM("SetPara.cpp", Form1);
+USEFORM("SetPara.cpp", SetParaDialog);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
@@ -14,7 +14,7 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 		Application->Initialize();
 		Application->MainFormOnTaskBar = true;
 		Application->CreateForm(__classid(TForm5), &Form5);
-		Application->CreateForm(__classid(TForm1), &Form1);
+		Application->CreateForm(__classid(TSetParaDialog), &SetParaDialog);
 		Application->Run();
 	}
 	catch (Exception &exception)

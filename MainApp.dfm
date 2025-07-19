@@ -49,4 +49,12 @@ object Form5: TForm5
     Text = '0'
     OnChange = Edit1Change
   end
+  object DebugBox: TListBox
+    Left = 40
+    Top = 96
+    Width = 73
+    Height = 57
+    ItemHeight = 13
+    TabOrder = 2
+  end
 end
