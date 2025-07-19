@@ -26,3 +26,6 @@
 *.bak
 *.tmp
 *.log
+
+#other
+*.mp4
